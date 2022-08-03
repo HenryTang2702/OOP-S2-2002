@@ -13,7 +13,7 @@ void count_digits(int array[4][4]){
     int count_9 = 0;
 
     for(int i =0; i<4; i++){
-        for(int j = 0; i<4; i++){
+        for(int j = 0; j<4; j++){
             switch (array[i][j])
             {
             case 0 :
@@ -50,11 +50,8 @@ void count_digits(int array[4][4]){
             default:
                 break;
             }
-std::cout << "0:" << count_0<<"1" <<count_1<<";2:" << count_2<<";3:"<<count_3 << ";4:" << count_4<<";5" <<count_5<<";6:" 
-<< count_6<<";7:"<<count_7 << ";8:" << count_8 <<";9:"<<count_9<<std::endl;
-
-
-
         }
     }
+    std::cout << "0:" << count_0<<"; 1:" <<count_1<<"; 2:" << count_2<<"; 3:"<<count_3 << "; 4:" << count_4<<"; 5:" <<count_5<<"; 6:" 
+<< count_6<<"; 7:"<<count_7 << "; 8:" << count_8 <<"; 9:"<<count_9<<std::endl;
 }
