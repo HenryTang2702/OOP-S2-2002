@@ -1,7 +1,7 @@
 #include<iostream>
 
 using namespace std;
-void print_binary_str(std::string decimal_number);
+void print_summed(int array1[3][3],int array2[3][3]);
 
 int main(){
 
