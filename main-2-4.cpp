@@ -4,7 +4,7 @@ using namespace std;
 int sum_min_max(int integers[], int length);
 
 int main(){
-    int a[5] = {1,3,5,7,9};
+    int a[5] = {1,3,5,2,9};
     cout << sum_min_max(a, 5);
 
 
