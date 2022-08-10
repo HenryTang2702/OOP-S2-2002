@@ -1,6 +1,6 @@
 #include<iostream>
 
-int sum_array_elements(int integers[], int length){
+int sum_integers(int integers[], int length){
      if (length <= 0){
         return -1;
     }
@@ -13,7 +13,7 @@ int sum_array_elements(int integers[], int length){
     
 }
 
-bool is_palindrome(int integers[], int length){
+bool is_array_palindrome(int integers[], int length){
     if (length <= 0){
         return -1;
     }
@@ -36,12 +36,12 @@ bool is_palindrome(int integers[], int length){
 }
 
 
-int sum_if_palindrome(int integers[], int length){
+int palindrome_sum(int integers[], int length){
      if (length <= 0){
         return -1;
     }
-    if(is_palindrome(integers,length)==1){
-            return sum_array_elements(integers, length);
+    if(is_array_palindrome(integers,length)==1){
+            return sum_integers(integers, length);
     }   
     else{
          return -2;
