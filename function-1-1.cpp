@@ -1,8 +1,5 @@
-#include<iostream>
+int size_of_variable_star_t(){
 
-using namespace std;
-
-int main(){
-
-    return 0;
+     int *t = new int;
+     return sizeof(t);
 }
