@@ -4,9 +4,9 @@ using namespace std;
 void string_2d_copy(std::string first[][2], std::string second[][2], int n);
 int main()
 {
-string first[3][2] = { {"One" , "Two"} ,{"Three" ,"Four"} ,{"Five" ,"Six"} };
-string second[3][2];
+string array1[3][2] = { {"One" , "Two"} ,{"Three" ,"Four"} ,{"Five" ,"Six"} };
+string array2[3][2];
 int n=3;
-string_2d_copy(first, second, n) ;
+string_2d_copy(array1, array2, n) ;
 return 0;
 }
