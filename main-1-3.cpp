@@ -5,7 +5,6 @@ using namespace std;
 void copy_integers(int old_array[],int new_array[],int length);
 
 int main() {
-    int *ptr;
     int a[5] ={1,3,5,7,9}; 
     int b[5];
     int n =5;
