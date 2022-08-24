@@ -1,26 +1,18 @@
-#include<iostream>
-void print_ascending(int *vals, int len){
+#include <iostream>
+#include <stdio.h>
+#include <string>
 
-     for (int i = 0; i < len; i++){
-        for (int j = i; j < len; j++){
-            if (vals[i] > vals[j+1]){
-                int temp = vals[i];
-                vals[i] = vals[j+1];
-                vals[j+1] = temp;
-            }
-        }
-        
+using namespace std;
+
+void print_ascending(int *vals, int len)
+{
+    int previouse = vals[0] - 1;
+    for (int i = 0; i < len; i++)
+    {
+        if (previouse > vals[i])
+            break;
+        cout << vals[i] << " ";
+        previouse = vals[i];
     }
-    for(int i =0; i < len; i++){
-        std::cout<<vals[i]<<" ";
-    }
-    // for(int i =1; i < len; i++){
-    //     if(vals[i -1] < vals[i]){
-    //     std::cout<<vals[i-1]<<" ";
-    //     }
-    //     else{
-    //         std::cout<<"";
-    //     }
-        
-    // }
+    cout << endl;
 }
