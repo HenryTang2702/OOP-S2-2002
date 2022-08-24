@@ -23,7 +23,7 @@ void hexDigits(int *numbers,int length){
 
         case 1:
 
-            std::cout<<i<<" "<<numbers[i]<<" 1"<<std::endl;//if it is 1 then pritns the 1
+            std::cout<<i<<" "<<numbers[i]<<" 1"<<std::endl;
             break;
 
          case 2:
@@ -68,32 +68,32 @@ void hexDigits(int *numbers,int length){
 
         case 10:
 
-            std::cout<<i<<" "<<numbers[i]<<" A"<<std::endl;
+            std::cout<<i<<" "<<numbers[i]<<" A"<<std::endl;//if it is 10 then prints the A
             break;
 
         case 11:
 
-            std::cout<<i<<" "<<numbers[i]<<" B"<<std::endl;//if it is 10 then pritns the B
+            std::cout<<i<<" "<<numbers[i]<<" B"<<std::endl;
             break;
 
         case 12:
 
-            std::cout<<i<<" "<<numbers[i]<<" C"<<std::endl;//if it is 10 then pritns the C
+            std::cout<<i<<" "<<numbers[i]<<" C"<<std::endl;//if it is 10 then prints the C
             break;
 
         case 13:
 
-            std::cout<<i<<" "<<numbers[i]<<" D"<<std::endl;//if it is 10 then pritns the D
+            std::cout<<i<<" "<<numbers[i]<<" D"<<std::endl;
             break;
 
         case 14:
 
-            std::cout<<i<<" "<<numbers[i]<<" E"<<std::endl;//if it is 10 then pritns the E
+            std::cout<<i<<" "<<numbers[i]<<" E"<<std::endl;
             break;
 
         case 15:
 
-            std::cout<<i<<" "<<numbers[i]<<" F"<<std::endl;//if it is 10 then pritns the F
+            std::cout<<i<<" "<<numbers[i]<<" F"<<std::endl;
             break;
 
         default:
