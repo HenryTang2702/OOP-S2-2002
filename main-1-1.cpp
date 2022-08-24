@@ -1,17 +1,10 @@
 #include<iostream>
 
 using namespace std;
-int *readNumbers();
-
-void printNumbers(int *numbers,int length);
-
+void print_ascending(int *vals, int len);
 int main(){
-
-    int *arry;//declare the array of pointer
-
-    arry=readNumbers();//calling the function that return the pointer of array
-
-    printNumbers(arry,10);//calling the function for printing the array
-
+    int vals[]={1,2,3,4,5,4,3,2,1};
+    print_ascending(vals, 9);
 return 0;
 }
+
