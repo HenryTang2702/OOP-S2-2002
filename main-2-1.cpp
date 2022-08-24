@@ -1,13 +1,12 @@
 #include<iostream>
+#include<string.h>
 
 using namespace std;
-void hexDigits(int *numbers,int length) ;
-int *readNumbers();
+string month_lookup(int month);
 
 int main(){
-    int *array;
-    array = readNumbers();
-    hexDigits(array, 10);
+    cout<<month_lookup(1);
+
 
 
     return 0;
