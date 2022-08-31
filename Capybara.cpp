@@ -4,11 +4,17 @@
 
 using namespace std;
 
-int main() {
-    string name="";
-    int age=0;
-    Capybara a1,a2,a3,a4,a5;
-    
-
-    return 0;
+Capybara::Capybara(){}
+void Capybara::setName(string capyName){
+        name = capyName;
+    }   // change the capybara's name
+string Capybara:: getName(){
+    return name;
 }
+void Capybara::setAge(int capyAge){
+    age = capyAge;
+}      // change the capybara's age
+int Capybara:: getAge(){
+    return age;
+}
+Capybara:: ~Capybara(){}
