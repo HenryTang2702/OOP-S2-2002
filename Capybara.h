@@ -2,14 +2,15 @@
 #define CAPYBARA_H
 #include<iostream>
 #include<string>
+using namespace std;
 class Capybara{
     string name;
     int age;
 public:
-    Capybara() ;                     // no name or age is required to create a Capybara
-    void setName(string capyName);   // change the capybara's name
+    Capybara() ; 
+    void setName(string capyName); 
     string getName();
-    void setAge(int capyAge);        // change the capybara's age
+    void setAge(int capyAge);
     int getAge();
     ~Capybara();
 };
