@@ -1,6 +1,7 @@
 #include<iostream>
 #include<string>
-#include"Capybara.h"
+#include "Capybara.h"
+#include<stdio.h>
 
 using namespace std;
 
