@@ -6,7 +6,7 @@
 
 using namespace std;
 
-Person::Person(){};
+Person::Person(){}
 Person::Person(int mySalary, string myName){
     salary = mySalary;
     name = myName;
@@ -23,6 +23,7 @@ int Person:: getSalary(){
 void Person:: setSalary(int mySalary){
     salary = mySalary;
 }
+Person::~Person(){}
 
 
 
