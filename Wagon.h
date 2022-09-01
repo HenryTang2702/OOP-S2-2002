@@ -1,10 +1,21 @@
 #include<iostream>
 #include<string.h>
 #include<string>
+#include "Capybara.cpp"
+#ifndef WAGON_H
+#define WAGON_H
 
 using namespace std;
-Wagon();                               // create an empty wagonobject
-bool addCapybara(Capybara newCapy);    // adds a Capybara to the wagon, returns false if full
-void emptyWagon();                     // remove all Capybaras from the wagon
-void printCapybaras();                 // print the name, a space, the age, then a new line
-                                       // for each capybara in the order they were added
+class Wagon{
+public:
+    int available_seat;
+    Capybara Capybara1,Capybara2, Capybara3, Capybara4;
+Wagon();                               
+bool addCapybara(Capybara newCapy);    
+void emptyWagon();                     
+void printCapybaras();                 
+                                       
+~Wagon();
+
+};                                    
+#endif
