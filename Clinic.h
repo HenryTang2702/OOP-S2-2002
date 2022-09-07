@@ -11,7 +11,6 @@ class Clinic
     //     Cage *cages;
 
 public:
-    int index;
     Clinic();
     Clinic(std::string name, int max_size);
 
