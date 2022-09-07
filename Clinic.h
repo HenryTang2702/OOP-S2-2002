@@ -2,9 +2,16 @@
 #ifndef CLINIC_H
 #define CLINIC_H
 #include "Cage.h"
+using namespace std;
 class Clinic
 {
+    // private:
+    //     std::string c_name;
+    //     int size;
+    //     Cage *cages;
+
 public:
+    int index;
     Clinic();
     Clinic(std::string name, int max_size);
 
@@ -15,8 +22,10 @@ public:
 
     bool add_cage(Cage new_cage);
     ~Clinic();
-
-private:
+    std::string name;
+    int size;
+    Cage *list;
+    int index;
 };
 
 #endif
