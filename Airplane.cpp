@@ -7,7 +7,7 @@
 using namespace std;
 
 // #pragma once
-
+Airplane::Airplane(){};
 Airplane::Airplane(string callsign, Person thePilot, Person theCoPilot)
 {
     this->callsign = callsign;

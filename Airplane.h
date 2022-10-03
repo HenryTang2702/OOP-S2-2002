@@ -15,6 +15,7 @@ class Airplane
     string callsign;
 
 public:
+    Airplane();
     Airplane(string callsign, Person thePilot, Person theCoPilot);
 
     void setPilot(Person thePilot); // change the pilot
