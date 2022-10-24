@@ -1,6 +1,6 @@
-#ifndef SORT_BY_ANIMALID_H
+#ifndef SORT_BY_NAME_H
 
-#define SORT_BY_ANIMALID_H
+#define SORT_BY_NAME_H
 
 // Include the required header files.
 
@@ -12,7 +12,7 @@ using namespace std;
 
 // Define the class.
 
-class sort_by_animalID
+class sort_by_name
 {
 
 public:

@@ -1,11 +1,10 @@
 // Include the required header files.
 
-#include "sort_by_animalID.h"
+#include "sort_by_name.h"
 
-// Define the static member function.
+// Declare the static member function.
 
-void sort_by_animalID ::sort(animal **animals, int n)
-
+void sort_by_name::sort(animal **animals, int n)
 {
 
     animal *t;
@@ -16,7 +15,7 @@ void sort_by_animalID ::sort(animal **animals, int n)
         for (int j = 0; j < n - 1; ++j)
         {
 
-            if (animals[j]->get_animalID() > animals[j + 1]->get_animalID())
+            if (animals[j]->get_name() > animals[j + 1]->get_name())
             {
 
                 t = animals[j];
