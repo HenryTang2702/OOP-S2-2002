@@ -1,7 +1,7 @@
 #include "hunter.h"
 #include <iostream>
 #include<string.h>
-#include"animal.h"
+#include"animal.cpp"
 
 using namespace std;
 int hunter ::nextID = 1000;

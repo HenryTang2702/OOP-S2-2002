@@ -1,7 +1,7 @@
 #ifndef HUNTER_H
 #define HUNTER_H
 #include <iostream>
-#include "animal.h"
+#include "animal.cpp"
 using namespace std;
 
 #pragma once
