@@ -1,26 +1,40 @@
 #ifndef HUNTER_H
+
 #define HUNTER_H
-#include <iostream>
-#include "animal.cpp"
+
+// Include the required header files.
+
+#include "animal.h"
+
+#include <string>
+
 using namespace std;
 
-#pragma once
+// Define the class.
 
 class hunter : public animal
 
 {
+
 private:
     // Declare the member variables.
+
     int kills;
+
     static int nextID;
 
 public:
     // Declare the constructor.
+
     hunter(string n, int v);
 
     // Declare the member functions.
+
     string get_name();
+
     int get_kill();
+
     void set_kill(int k);
 };
+
 #endif
