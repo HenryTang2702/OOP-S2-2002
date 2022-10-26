@@ -18,8 +18,8 @@ public:
     int get_payRate();
     void set_payRate(int payRate);
     float get_energyLevel();
-    virtual void work(int mins) = 0;
-    virtual float pay() = 0;
+    void work(int mins);
+    float pay();
     ~Employee();
 };
 

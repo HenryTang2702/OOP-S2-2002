@@ -4,7 +4,7 @@ using namespace std;
 
 Employee ::Employee(int payRate)
 {
-    payRate = payRate;
+    this -> payRate = payRate;
 }
 void Employee::set_payRate(int payRate)
 {
