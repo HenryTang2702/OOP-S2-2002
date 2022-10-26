@@ -2,11 +2,9 @@
 #include<iostream>
 
 using namespace std;
-Casual::Casual()
-{
 
-}
 Casual::Casual(int payRate):Employee(payRate){
+    payRate = payRate;
 
 }
 void Casual::set_dayCount(int d){

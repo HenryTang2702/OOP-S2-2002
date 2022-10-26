@@ -2,9 +2,6 @@
 #include <iostream>
 using namespace std;
 
-Employee::Employee()
-{
-}
 Employee ::Employee(int payRate)
 {
     payRate = payRate;
@@ -16,6 +13,9 @@ void Employee::set_payRate(int payRate)
 int Employee::get_payRate()
 {
     return payRate;
+}
+float Employee::get_energyLevel(){
+    return energyLevel;
 }
 
 Employee::~Employee()

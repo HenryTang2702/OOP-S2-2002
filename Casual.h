@@ -15,6 +15,7 @@ public:
     void endWorkDay();
     int get_dayCount();
     void set_dayCount(int d);
+    float get_hoursWorked();
     ~Casual();
 
 private:

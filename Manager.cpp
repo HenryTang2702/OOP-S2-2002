@@ -1,6 +1,8 @@
 #include "Manager.h"
+#include<iostream>
+using namespace std;
 
-Manager::Manager()
+Manager::Manager(int payRate) : Employee(payRate)
 {
 
 }
