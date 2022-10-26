@@ -1,8 +1,9 @@
 #include<iostream>
-#include"Employee.h"
+#include"Employee.cpp"
 using namespace std;
 
 int main() {
+    
 
     return 0;
 }

@@ -16,7 +16,7 @@ public:
     Employee(int payRate);
     void takeABreak(int mins);
     int get_payRate();
-    void set_payRate(int p);
+    void set_payRate(int payRate);
     virtual void work(int mins) = 0;
     virtual float pay() = 0;
     ~Employee();
