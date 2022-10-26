@@ -2,22 +2,33 @@
 #include <iostream>
 using namespace std;
 
-Employee ::Employee(int payRate)
+Employee::Employee(int payRate) : payRate(payRate)
 {
-    this -> payRate = payRate;
 }
-void Employee::set_payRate(int payRate)
+
+void Employee::takeABreak(int mins)
 {
-    payRate = payRate;
+    energyLevel += 2 * mins;
+    if (energyLevel > 100)
+        energyLevel = 100;
 }
+
 int Employee::get_payRate()
 {
     return payRate;
 }
-float Employee::get_energyLevel(){
+
+void Employee::set_payRate(int payRate)
+{
+    this->payRate = payRate;
+}
+
+float Employee::get_energyLevel()
+{
     return energyLevel;
 }
 
-Employee::~Employee()
+void Employee::set_energyLevel(float energyLevel)
 {
+    this->energyLevel = energyLevel;
 }

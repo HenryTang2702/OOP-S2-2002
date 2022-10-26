@@ -13,6 +13,6 @@ int main()
     else
     {
         cout << "You do not have the authority to create a shop." << endl;
-    }
+    }   
     return 0;
 } 

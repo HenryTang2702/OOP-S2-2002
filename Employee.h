@@ -8,19 +8,21 @@ using namespace std;
 class Employee
 {
 protected:
-    int payRate;       // hourly payRate
-    float energyLevel; // Initially 100%
-
+    int payRate;
+    float energyLevel = 100; // Initially 100%
 public:
-    Employee();
-    Employee(int payRate);
+    Employee(int payRate); // creates a Employee with payRate
+
     void takeABreak(int mins);
+
     int get_payRate();
     void set_payRate(int payRate);
+
     float get_energyLevel();
-    void work(int mins);
-    float pay();
-    ~Employee();
+    void set_energyLevel(float energyLevel);
+
+    virtual void work(int mins) = 0;
+    virtual float pay() = 0;
 };
 
 #endif
